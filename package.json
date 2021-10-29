@@ -1,0 +1,40 @@
+{
+  "name": "weex-page-router",
+  "version": "1.0.0",
+  "description": "Router for weex, usage like vue-router.",
+  "scripts": {
+    "build": "rollup --config",
+    "example": "webpack --config ./examples/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iquejay/weex-page-router.git"
+  },
+  "author": "quejay",
+  "main": "dist/weex-page-router.min.js",
+  "module": "dist/weex-page-router.esm.js",
+  "typings": "types/index.d.ts",
+  "dependencies": {
+    "path-to-regexp": "^1.8.0",
+    "vue-router": "^3.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-flow": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup": "^2.58.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-flow-no-whitespace": "^1.0.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "keywords": [
+    "weex",
+    "vue-router",
+    "weex-vue-router",
+    "weex-router"
+  ],
+  "license": "MIT"
+}
